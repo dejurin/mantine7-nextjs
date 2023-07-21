@@ -1,0 +1,23 @@
+{
+  "name": "mantine7-nextjs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mantine/core": "7.0.0-alpha.17",
+    "@mantine/hooks": "7.0.0-alpha.17",
+    "next": "13.4.11",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@types/node": "^20.4.2",
+    "@types/react": "18.2.15",
+    "typescript": "5.1.6"
+  }
+}
