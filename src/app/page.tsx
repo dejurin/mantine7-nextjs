@@ -1,11 +1,13 @@
 import React from "react";
-import Test from "../components/Test";
+import NativeSelectExample from "../components/NativeSelectExample";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <>
-        <h1>Test</h1>
-        <Test />
+        <h1>NativeSelectExample</h1>
+        <Link href="/grid">SimpleGridExample</Link>
+        <NativeSelectExample />
     </>
   );
 }

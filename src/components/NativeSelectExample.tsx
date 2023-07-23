@@ -1,6 +1,6 @@
 import { Container, NativeSelect, SimpleGrid } from "@mantine/core";
 
-function Test() {
+export default  function NativeSelectExample() {
   return (
     <Container>
       <div style={{ width: 200 }}>
@@ -20,15 +20,6 @@ function Test() {
           data={["React", "Angular", "Vue"]}
         />
       </div>
-      <SimpleGrid cols={3}>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-      </SimpleGrid>
     </Container>
   );
 }
-
-export default Test;
