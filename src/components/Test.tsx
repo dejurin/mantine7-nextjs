@@ -1,4 +1,4 @@
-import { Container, NativeSelect } from "@mantine/core";
+import { Container, NativeSelect, SimpleGrid } from "@mantine/core";
 
 function Test() {
   return (
@@ -20,6 +20,13 @@ function Test() {
           data={["React", "Angular", "Vue"]}
         />
       </div>
+      <SimpleGrid cols={3}>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </SimpleGrid>
     </Container>
   );
 }
